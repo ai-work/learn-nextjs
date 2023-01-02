@@ -6,6 +6,6 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div>Hello World from Zia Khan</div>
+    <div>Hello Next.js World from Asif Iqbal</div>
   )
 }
