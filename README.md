@@ -9,6 +9,10 @@ Next.js Conf Keynote Announcing Version 13 :
 
 ### [Next.js 13 Beta Docs](https://beta.nextjs.org/docs/getting-started)
 
+Before going forward check out this [directory of headless ecommerce stores that excel at both Design and Performance]. Also check out the [tools they are using](https://theheadlessclub.com/tools)
+
+
+
 The stack used in this learning repo, it is a mixture of [Jamstack](https://jamstack.org/) and [T3](https://create.t3.gg/) Stacks:
 [TypeScript](https://www.typescriptlang.org/),
 [Next.js 13](https://nextjs.org/blog/next-13),
@@ -21,6 +25,10 @@ The stack used in this learning repo, it is a mixture of [Jamstack](https://jams
 This repo is part of the [Certified Web 3.0 and Metaverse Developer Training Program](https://www.panaverse.co/)
 
 Before start learning from this repo, [learn TypeScript](https://github.com/panacloud-modern-global-apps/learn-typescript) and by doing these [TypeScript Node.js Projects](https://github.com/panacloud-modern-global-apps/chakra-nextjs-projects)
+
+[Checkout the Practice Problems for Next.js 13](https://www.practiceprobs.com/problemsets/nextjs/dunder-mifflin/)
+
+[Step By Step Guide To Full Stack Web Development | Next.js13 Tailwind Prisma Postgresql Typescript](https://www.youtube.com/watch?v=gxkwMm_j850)
 
 After completing this repo you should move to these specialized Web 3 learning repos:
 
