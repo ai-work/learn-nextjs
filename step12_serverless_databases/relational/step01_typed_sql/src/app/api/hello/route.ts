@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import { neonConfig } from "@neondatabase/serverless";
 
 import {
   Kysely,
@@ -12,14 +11,14 @@ import {
 
 import { NeonDialect } from "kysely-neon";
 
-interface playing_with_neon_Table {
+interface playing_with_neonTable {
   id: Generated<number>
   name: string
   value: number
 }
 
 interface Database {
-  playing_with_neon: playing_with_neon_Table
+  playing_with_neon: playing_with_neonTable
 }
 
 
