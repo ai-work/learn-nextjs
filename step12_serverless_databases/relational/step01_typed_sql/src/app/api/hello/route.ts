@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { neonConfig } from "@neondatabase/serverless";
 
 import {
   Kysely,
