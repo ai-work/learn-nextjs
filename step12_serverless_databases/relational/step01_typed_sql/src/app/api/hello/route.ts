@@ -1,3 +1,5 @@
+'use edge'
+
 import { NextRequest, NextResponse } from "next/server";
 
 import {
@@ -11,14 +13,14 @@ import {
 
 import { NeonDialect } from "kysely-neon";
 
-interface playing_with_neonTable {
+interface playing_with_neon_Table {
   id: Generated<number>
   name: string
   value: number
 }
 
 interface Database {
-  playing_with_neon: playing_with_neonTable
+  playing_with_neon: playing_with_neon_Table
 }
 
 
