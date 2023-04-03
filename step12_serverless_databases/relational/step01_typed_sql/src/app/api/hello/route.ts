@@ -24,6 +24,7 @@ interface Database {
 
 
 export async function GET(request: NextRequest) {
+  console.log("connecting to ", process.env.NEON_DATABASE_URL);
   const db = new Kysely<Database>({
     dialect: new NeonDialect({
       connectionString: process.env.NEON_DATABASE_URL!,
@@ -35,7 +36,7 @@ export async function GET(request: NextRequest) {
   .selectAll()
   .execute()
   
-  console.log("backend result", result);
+  console.log("backend result ", result);
   return new NextResponse(JSON.stringify(result));
 }
 
